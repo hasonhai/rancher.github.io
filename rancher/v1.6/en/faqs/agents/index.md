@@ -34,7 +34,7 @@ Some Linux distributions will run a local DNS cache server like `dnsmasq`. If th
 ERROR: DNS Checking loopback IP address 127.0.0.0/8, localhost or ::1 configured as the DNS server on the host file /etc/resolv.conf, can't accept it
 ```
 
-To fix this, you can either specify DNS servers for Docker or disable `dnsmasq`. Instructions on both options are provided in the [Docker documentation](https://docs.docker.com/engine/installation/linux/linux-postinstall/#dns-resolver-found-in-resolvconf-and-containers-cant-use-it)
+To fix this, you can either specify DNS servers for Docker or disable `dnsmasq`. Instructions on both options are provided in the [Docker documentation](https://docs.docker.com/install/linux/linux-postinstall/#dns-resolver-found-in-resolvconf-and-containers-cant-use-it)
 
 <a id="agent-logs"></a>
 
